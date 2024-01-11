@@ -1,0 +1,203 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marom Sverdlov</title>
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+      - #MAIN
+    -->
+
+    <main>
+
+        <!--
+        - #SIDEBAR
+      -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="../assets/images/avatar-1.png" alt="Richard hanrick" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Marom Sverdlov">Marom Sverdlov</h1>
+
+                    <p class="title">Software Engineer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:m.sverdlov@student.tue.nl"
+                                class="contact-link">m.sverdlov@student.tue.nl</a>
+                        </div>
+
+                    </li>
+
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Linkedin</p>
+
+                            <a href="https://www.linkedin.com/in/marom-sverdlov-251370252/"
+                                class="contact-link">https://www.linkedin.com/in/marom-sverdlov-251370252/</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Github</p>
+
+                            <a href="https://github.com/MaromSv" class="contact-link">https://github.com/MaromSv</a>
+                        </div>
+
+                    </li>
+
+
+                    <h1 class="contact-title">Feel free to contact me :)</h1>
+
+                </ul>
+
+                <div class="separator"></div>
+
+            </div>
+
+        </aside>
+
+
+        <div class="main-content">
+
+            <article class="about active" data-page="about">
+                <!-- About me content goes here -->
+                <header>
+                    <h2 class="h2 article-title">Disk Sorting Robot</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        For the course Embedded Systems 2IO75 we were tasked with creating a robot to sort disks
+                        arriving at a factory
+                        converyer belt. We created a GUI to control this robot and send it commands as well as a
+                        simulation to simulate how
+                        the robot works digitially.
+                        <br>
+                        <a href="https://github.com/MaromSv/Embedded-Systems" target="_blank">Source Code</a>
+
+
+                    </p>
+
+                    <div class="image-container">
+                        <figure>
+                            <img src="../assets/images/sortRobotPoster.JPG" alt="Image 1" width="800" height="500">
+                            <figcaption>Poster</figcaption>
+                        </figure>
+                    </div>
+
+
+
+
+                    <video width="640" height="360" controls>
+                        <source src="../assets/images/simvid.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video width="640" height="360" controls>
+                        <source src="../assets/images/demo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
+
+
+                </section>
+
+
+
+
+
+                <!-- Code does not work without this next part -->
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                    </section>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
